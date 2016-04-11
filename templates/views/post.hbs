@@ -6,6 +6,7 @@
 				<hr>
 				<header>
 					<h1>{{data.post.title}}</h1>
+					<img style="width: 100%;" src="{{data.post.image.url}}"/>
 					<h5>
 						{{{categoryList data.post.categories prefix="Posted in "}}}
 						{{#if author.name.first}}by {{author.name.first}}{{/if}}
